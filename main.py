@@ -11,6 +11,7 @@ class MysteryRoom:
         print("In the room, there's a bookshelf and a painting.")
         print("Your objective is to find a way out!")
 
+    
     def check_bookshelf(self):
         print("\nThe bookshelf has several books with numbers on their spines: 3, 1, 4, 2.")
         order = input("Enter the order in which you want to pull the books (e.g. 3142): ")
