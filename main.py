@@ -1,16 +1,13 @@
 class MysteryRoom:
 
-    
     def __init__(self):
         self.has_key = False
         self.drawer_opened = False 
-
     
     def describe_room(self):
         print("You find yourself in a mysterious room with a locked door.")
         print("In the room, there's a bookshelf and a painting.")
         print("Your objective is to find a way out!")
-
     
     def check_bookshelf(self):
         print("\nThe bookshelf has several books with numbers on their spines: 3, 1, 4, 2.")
@@ -20,7 +17,6 @@ class MysteryRoom:
             print("You hear a click sound and find a key!")
         else:
             print("Nothing happens.")
-
     
     def check_painting(self):
         print("\nYou look behind the painting and find a riddle:")
@@ -32,7 +28,6 @@ class MysteryRoom:
         else:
             print("Nothing happens.")
 
-    
     def check_drawer(self):
         if not self.drawer_opened:
             print("\nYou don't see any drawer.")
@@ -44,14 +39,12 @@ class MysteryRoom:
         else:
             print("Wrong code.")
 
-    
     def check_door(self):
         if self.has_key:
             print("\nYou use the key to unlock the door and escape the room. Congratulations!")
             exit()
         else:
             print("\nThe door is locked. You need a key.")
-
     
     def start_game(self):
         self.describe_room()
