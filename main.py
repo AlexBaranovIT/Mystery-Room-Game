@@ -4,6 +4,7 @@ class MysteryRoom:
         self.has_key = False
         self.drawer_opened = False 
 
+    
     def describe_room(self):
         print("You find yourself in a mysterious room with a locked door.")
         print("In the room, there's a bookshelf and a painting.")
