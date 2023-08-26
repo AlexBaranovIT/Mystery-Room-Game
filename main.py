@@ -20,6 +20,7 @@ class MysteryRoom:
         else:
             print("Nothing happens.")
 
+    
     def check_painting(self):
         print("\nYou look behind the painting and find a riddle:")
         print("\"I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?\"")
