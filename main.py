@@ -2,7 +2,7 @@ class MysteryRoom:
 
     def __init__(self):
         self.has_key = False
-        self.drawer_opened = False
+        self.drawer_opened = False 
 
     def describe_room(self):
         print("You find yourself in a mysterious room with a locked door.")
