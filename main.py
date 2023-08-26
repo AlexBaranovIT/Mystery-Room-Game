@@ -44,6 +44,7 @@ class MysteryRoom:
         else:
             print("Wrong code.")
 
+    
     def check_door(self):
         if self.has_key:
             print("\nYou use the key to unlock the door and escape the room. Congratulations!")
@@ -51,6 +52,7 @@ class MysteryRoom:
         else:
             print("\nThe door is locked. You need a key.")
 
+    
     def start_game(self):
         self.describe_room()
         while True:
