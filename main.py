@@ -28,6 +28,7 @@ class MysteryRoom:
         else:
             print("Nothing happens.")
 
+    
     def check_drawer(self):
         if not self.drawer_opened:
             print("\nYou don't see any drawer.")
