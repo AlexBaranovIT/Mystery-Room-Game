@@ -1,5 +1,6 @@
 class MysteryRoom:
 
+    
     def __init__(self):
         self.has_key = False
         self.drawer_opened = False 
